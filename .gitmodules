@@ -1,0 +1,36 @@
+[submodule "vim/bundle/Parameter-text-Objects"]
+	path = vim/bundle/Parameter-text-Objects
+	url = git://github.com/vim-scripts/Parameter-Text-Objects.git
+[submodule "vim/bundle/Zenburn"]
+	path = vim/bundle/Zenburn
+	url = git://github.com/jnurmine/Zenburn.git
+[submodule "vim/bundle/mojo.vim"]
+	path = vim/bundle/mojo.vim
+	url = git://github.com/yko/mojo.vim.git
+[submodule "vim/bundle/bash-support.vim"]
+	path = vim/bundle/bash-support.vim
+	url = git://github.com/vim-scripts/bash-support.vim.git
+[submodule "vim/bundle/neocomplcache"]
+	path = vim/bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/perl-support.vim"]
+	path = vim/bundle/perl-support.vim
+	url = git://github.com/benizi/perl-support.vim.git
+[submodule "vim/bundle/vim-ruby"]
+	path = vim/bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/matchindent"]
+	path = vim/bundle/matchindent
+	url = git://github.com/conormcd/matchindent.vim
+[submodule "vim/bundle/vim-vue"]
+	path = vim/bundle/vim-vue
+	url = https://github.com/posva/vim-vue.git
