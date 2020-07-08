@@ -6,6 +6,9 @@ filetype plugin indent on
 set t_Co=256
 colorscheme zenburn
 
+let $RUBYHOME=$HOME."/.rbenv/versions/2.5.5"
+set rubydll=$HOME/.rbenv/versions/2.5.5/lib/libruby.2.5.5.dylib
+
 "Text Formatting
 set autoindent          "Auto indenting
 set cindent             "auto un-indent close bracket

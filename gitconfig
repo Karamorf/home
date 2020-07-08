@@ -35,7 +35,7 @@
     cfd = clean -fd
     sm = submodule
 [user]
-	name = Curtis MacDuff
-	email = curtis.a.macduff@disney.com
+    name = Curtis MacDuff
+    email = curtis@cl.ly
 [push]
-	default = simple
+    default = current
