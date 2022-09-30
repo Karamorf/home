@@ -34,9 +34,13 @@
     names = diff --name-only
     cfd = clean -fd
     sm = submodule
+    current = rev-parse --abbrev-ref HEAD
+
+    pto = !CURRENT=$(git current) && git push origin $CURRENT
+    pfo = !CURRENT=$(git current) && git pull origin $CURRENT
 [user]
     name = Curtis MacDuff
-    email = curtis@cl.ly
+    email = curtis@mintsongs.com
 [push]
     default = current
 [pull]
