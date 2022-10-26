@@ -34,8 +34,8 @@
     names = diff --name-only
     cfd = clean -fd
     sm = submodule
-[user]
-    name = Curtis MacDuff
-    email = curtis@cl.ly
 [push]
     default = current
+[user]
+	name = karamorf
+	email = karamorf.eth

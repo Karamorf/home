@@ -12,10 +12,10 @@ set rubydll=$HOME/.rbenv/versions/2.5.5/lib/libruby.2.5.5.dylib
 "Text Formatting
 set autoindent          "Auto indenting
 set cindent             "auto un-indent close bracket
-set cinoptions=>4       "one tab only
-set tabstop=4           "Tab width
+set cinoptions=>2       "one tab only
+set tabstop=2           "Tab width
 set softtabstop=0       "Soft tabstop
-set shiftwidth=4        "how much to shift text when formatting
+set shiftwidth=2        "how much to shift text when formatting
 set backspace=2         "backspace over every thing
 set showmatch           "Blink to show the {} and () matche
 set matchtime=2         "make it a quick blink though

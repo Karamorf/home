@@ -14,7 +14,6 @@ cd -
 /bin/ln -nfs $PATH/screenrc ~/.screenrc
 /bin/ln -nfs $PATH/tmux.conf ~/.tmux.conf
 /bin/ln -nfs $PATH/fonts ~/.fonts
-/bin/ln -nfs $PATH/bashrc ~/.bashrc
 /bin/ln -nfs $PATH/profile ~/.profile
 /bin/ln -nfs $PATH/gitconfig ~/.gitconfig
 
