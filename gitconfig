@@ -34,8 +34,21 @@
     names = diff --name-only
     cfd = clean -fd
     sm = submodule
+    current = rev-parse --abbrev-ref HEAD
+
+    pto = !CURRENT=$(git current) && git push origin $CURRENT
+    pfo = !CURRENT=$(git current) && git pull origin $CURRENT
+[user]
+    name = karamorf
+    email = karamorf@proton.me
 [push]
     default = current
-[user]
-	name = karamorf
-	email = karamorf.eth
+[pull]
+    rebase = false
+[init]
+    defaultBranch = main
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
