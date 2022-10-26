@@ -34,8 +34,6 @@
 [submodule "vim/bundle/vim-vue"]
 	path = vim/bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
-<<<<<<< HEAD
-=======
 [submodule "vim/bundle/vim-autoformat"]
 	path = vim/bundle/vim-autoformat
 	url = git@github.com:Chiel92/vim-autoformat.git
@@ -59,8 +57,4 @@
 	url = git@github.com:yuezk/vim-js.git
 [submodule "bundle/vim-solidity"]
 	path = bundle/vim-solidity
-	url = https://github.com/tomlion/vim-solidity.git
->>>>>>> 6e1ddd0e4e75ba77c82287aa3fb76a573209f24d
-[submodule "vim/bundle/vim-solidity"]
-	path = vim/bundle/vim-solidity
 	url = https://github.com/tomlion/vim-solidity.git
